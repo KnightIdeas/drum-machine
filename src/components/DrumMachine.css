@@ -1,0 +1,19 @@
+.drum-machine {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-rows: repeat(3, minmax(90px, 100px));
+    grid-template-columns: repeat(4, minmax(90px, 100px));
+  }
+  
+  .item-10 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    align-self: center;
+  }
+  
