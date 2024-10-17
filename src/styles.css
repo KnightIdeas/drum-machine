@@ -2,4 +2,13 @@
     font-family: sans-serif;
     text-align: center;
   }
+
+.title {
+  margin: 40px 0px -40px;
+  font-size: 40px;
+  }
   
+  .guidance-text {
+    margin-top: -100px;
+    font-size: 20px;
+  }
